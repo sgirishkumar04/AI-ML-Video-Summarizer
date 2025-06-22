@@ -13,7 +13,7 @@ from faster_whisper import WhisperModel # The local, free speech-to-text model
 # "small" offers a good balance of speed and accuracy.
 # Other options: "base", "medium", "large-v3". Larger models are more accurate but much slower.
 # The first time you run the script, this model will be downloaded automatically.
-MODEL_SIZE = "small" 
+MODEL_SIZE = "tiny" 
 print(f"Loading Whisper model: {MODEL_SIZE}...")
 # device="cpu" and compute_type="int8" are optimizations for running on a standard computer.
 whisper_model = WhisperModel(MODEL_SIZE, device="cpu", compute_type="int8")
