@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+*.venv/
+
+# Application files
+uploads/
+
+# OS-specific files
+.DS_Store

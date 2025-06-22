@@ -1,0 +1,45 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video to Text & Summarizer AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Video to Text & Summarizer AI</h1>
+        
+        <!-- Video Upload Section -->
+        <div class="upload-section">
+            <p>Upload a video file (MP4, MOV, etc.) to get started.</p>
+            <input type="file" id="video-input" accept="video/*">
+            <button id="upload-btn">Transcribe Video</button>
+        </div>
+
+        <!-- Status Indicator -->
+        <div id="status" class="status"></div>
+
+        <!-- Results Section -->
+        <div id="results-section" class="hidden">
+            <!-- Transcript -->
+            <div class="result-box">
+                <h2>Transcript</h2>
+                <textarea id="transcript-text" rows="15" readonly></textarea>
+            </div>
+            
+            <!-- Summarize Button -->
+            <button id="summarize-btn" class="hidden">Summarize Text</button>
+            
+            <!-- Summary -->
+            <div class="result-box hidden" id="summary-container">
+                <h2>Summary</h2>
+                <textarea id="summary-text" rows="10" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
