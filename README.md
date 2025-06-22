@@ -41,7 +41,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/sgirishkumar04/video-summarizer-web.git
+    git clone https://github.com/YOUR_USERNAME/video-summarizer-web.git
     cd video-summarizer-web
     ```
 
