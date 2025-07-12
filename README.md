@@ -1,4 +1,4 @@
-# AI Video Summarizer 🚀
+# AI/ML Video Summarizer 🚀
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Now-2ea44f?style=for-the-badge&logo=render)](https://video-summarizer-acsw.onrender.com)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
